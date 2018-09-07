@@ -4,6 +4,8 @@ body{
 
 body{
   background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .presentation img{
@@ -13,4 +15,5 @@ body{
 .projects img{
   height: 2in;
   width: 2in;
+  border-radius: 50%;
 }
