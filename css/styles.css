@@ -2,3 +2,7 @@
   height: 3in;
   width: 2in;
 }
+
+body{
+  background-image: url(../images/background.png);
+}
