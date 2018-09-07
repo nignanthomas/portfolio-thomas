@@ -1,8 +1,12 @@
-.presentation img{
-  height: 3in;
-  width: 2in;
+body{
+  color: white;
 }
 
 body{
   background-image: url(../images/background.png);
+}
+
+.presentation img{
+  height: 3in;
+  width: 2in;
 }
