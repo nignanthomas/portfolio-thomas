@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Crayon;
+    src: url(crayon.ttf);
+}
+
+
 body{
   color: black;
 }
@@ -7,15 +13,76 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    color: #ffffff;
+
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Crayon;
+    font-size: 150%;
+}
+
+.nav-name {
+  float: left;
+  padding: 7px 8px;
+  font-size: 125%;
+}
+
+
+/* Links inside the navbar */
+.nav-menu ul {
+  float: right;
+}
+
+
+.nav-menu li, .nav-menu li a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.nav-menu a:hover {
+    background: #ddd;
+    color: black;
+}
+
+#presentation{
+  padding-top: 100px;
+  color: #ffffff;
+  text-align: center;
+  height: 100vh;
+  font-family: Crayon;
 
 }
 
-.presentation img{
-  height: 300px;
-  width: 300px;
+.presentation-text {
+  text-align: center;
+  float: inherit;
+  font-size: 200%;
 }
-.projects img{
+
+#presentation img{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%
+}
+#projects img{
   height: 2in;
   width: 2in;
-  border-radius: 50%;
+  border-radius: 25%;
 }
