@@ -25,7 +25,7 @@ body{
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    width: 100%; /* Full width  */
     color: #ffffff;
 
     background-image: url(../images/background.jpg);
@@ -34,6 +34,8 @@ body{
     background-size: cover;
     font-family: Crayon;
     font-size: 150%;
+
+
 }
 
 .nav-name {
@@ -64,8 +66,10 @@ body{
     color: black;
 }
 
+/* Presentation Section */
+
 #presentation{
-  padding-top: 100px;
+  padding-top: 90px;
   color: #ffffff;
   text-align: center;
   height: 100vh;
@@ -77,6 +81,22 @@ body{
   text-align: center;
   float: inherit;
   font-size: 200%;
+}
+
+.name {
+  color: #4d9cbe;
+}
+.web-color {
+  color: green;
+}
+.html-color {
+  color: red;
+}
+.css-color {
+  color: blue;
+}
+.git-color {
+  color: orange;
 }
 
 #presentation img{
