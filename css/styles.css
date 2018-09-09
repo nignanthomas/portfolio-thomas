@@ -34,8 +34,7 @@ body{
     background-size: cover;
     font-family: Crayon;
     font-size: 150%;
-
-
+    height: 12%;
 }
 
 .nav-name {
@@ -75,6 +74,10 @@ body{
   height: 100vh;
   font-family: Crayon;
 
+}
+
+#presentation h2 {
+  text-decoration: overline underline;
 }
 
 .presentation-text {
@@ -123,12 +126,32 @@ body{
 }
 
 #projects {
-  background-color: yellow;
+  background-color: rgb(230, 207, 90);
   background-size: cover;
   height: 100vh;
   text-align: center;
 }
 
 #projects h2 {
-  padding-top: 100px;
+  padding-top: 90px;
+  font-family: 'Finger Paint', cursive;
+  font-size: 150%;
+  text-decoration: underline overline;
+}
+
+
+/* About Section */
+
+#about-me {
+  background-color: #f67979;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+#about-me h2 {
+  padding-top: 90px;
+  font-family: 'Finger Paint', cursive;
+  font-size: 150%;
+  text-decoration: underline overline;
 }
