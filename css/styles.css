@@ -3,6 +3,9 @@
     src: url(crayon.ttf);
 }
 
+li {
+  list-style: none;
+}
 
 body{
   color: black;
@@ -85,4 +88,19 @@ body{
   height: 2in;
   width: 2in;
   border-radius: 25%;
+}
+
+
+/* About Me Section */
+
+
+.column {
+  float: left;
+  width: 21%;
+  margin: 2%;
+  text-align: center;
+}
+
+#projects {
+  background-color: #abaf00;
 }
