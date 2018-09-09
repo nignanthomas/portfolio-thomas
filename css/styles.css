@@ -91,7 +91,7 @@ body{
 }
 
 
-/* About Me Section */
+/* Projects Section */
 
 
 .column {
@@ -102,5 +102,12 @@ body{
 }
 
 #projects {
-  background-color: #abaf00;
+  background-color: yellow;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+#projects h2 {
+  padding-top: 100px;
 }
