@@ -3,6 +3,8 @@
 #### By **nignanthomas**
 ## Description
 This website describes who I am, highlights some of my work as a Web Developer, my background and my contact info if you want to hire me!
+## Live Demo
+https://nignanthomas.github.io/portfolio-thomas/
 ## Technologies Used
 HTML
 CSS
